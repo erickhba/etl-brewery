@@ -20,7 +20,7 @@ Through this project, the focus is on implementing and managing a complete ETL (
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/
+    git clone https://github.com/erickhba/etl-brewery
     ```
 2. Build and run using docker:
     ```sh
