@@ -1,0 +1,1232 @@
+[2024-08-22T19:15:00.732+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:15:00.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:15:00.744+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:15:00.743+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:15:06.191+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:15:06.187+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:15:06.193+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:15:06.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 5.519 seconds
+[2024-08-22T19:15:36.614+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:15:36.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:15:36.622+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:15:36.621+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:15:37.605+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:15:37.602+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:15:37.606+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:15:37.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.027 seconds
+[2024-08-22T19:16:08.006+0000] {processor.py:186} INFO - Started process (PID=77) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:16:08.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:16:08.010+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:16:08.009+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:16:08.644+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:16:08.641+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:16:08.645+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:16:08.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.664 seconds
+[2024-08-22T19:16:39.079+0000] {processor.py:186} INFO - Started process (PID=85) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:16:39.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:16:39.084+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:16:39.083+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:16:39.735+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:16:39.733+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:16:39.736+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:16:39.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.691 seconds
+[2024-08-22T19:17:09.875+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:17:09.877+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:17:09.879+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:17:09.878+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:17:10.392+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:17:10.390+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:17:10.393+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:17:10.409+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.544 seconds
+[2024-08-22T19:17:40.789+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:17:40.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:17:40.792+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:17:40.792+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:17:41.269+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:17:41.267+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:17:41.270+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:17:41.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.507 seconds
+[2024-08-22T19:18:35.629+0000] {processor.py:186} INFO - Started process (PID=109) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:18:35.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:18:35.661+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:18:35.658+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:18:36.843+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:18:36.840+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:18:36.844+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:18:36.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.474 seconds
+[2024-08-22T19:21:36.346+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:21:36.348+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:21:36.356+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:21:36.355+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:21:40.373+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:21:40.368+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:21:40.375+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:21:40.438+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 4.112 seconds
+[2024-08-22T19:22:10.780+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:22:10.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:22:10.784+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:22:10.783+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:22:11.396+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:22:11.393+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:22:11.397+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:22:11.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.654 seconds
+[2024-08-22T19:22:41.791+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:22:41.792+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:22:41.794+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:22:41.794+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:22:42.249+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:22:42.247+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:22:42.250+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:22:42.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.484 seconds
+[2024-08-22T19:23:12.491+0000] {processor.py:186} INFO - Started process (PID=146) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:23:12.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:23:12.494+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:23:12.494+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:23:13.054+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:23:13.052+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:23:13.055+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:23:13.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.597 seconds
+[2024-08-22T19:23:43.452+0000] {processor.py:186} INFO - Started process (PID=153) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:23:43.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:23:43.456+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:23:43.455+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:23:44.029+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:23:44.027+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:23:44.032+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:23:44.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.609 seconds
+[2024-08-22T19:24:14.470+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:24:14.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:24:14.475+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:24:14.474+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:24:14.997+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:24:14.995+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:24:14.998+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:24:15.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.557 seconds
+[2024-08-22T19:24:45.341+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:24:45.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:24:45.345+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:24:45.344+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:24:45.962+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:24:45.960+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:24:45.963+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:24:45.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.649 seconds
+[2024-08-22T19:25:16.094+0000] {processor.py:186} INFO - Started process (PID=177) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:25:16.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:25:16.097+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:25:16.097+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:25:16.883+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:25:16.881+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:25:16.884+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:25:16.906+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.822 seconds
+[2024-08-22T19:25:47.231+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:25:47.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:25:47.235+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:25:47.234+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:25:47.738+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:25:47.736+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:25:47.739+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:25:47.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.534 seconds
+[2024-08-22T19:26:18.005+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:26:18.007+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:26:18.010+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:26:18.010+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:26:19.133+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:26:19.130+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:26:19.134+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:26:19.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.170 seconds
+[2024-08-22T19:26:49.515+0000] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:26:49.516+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:26:49.518+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:26:49.518+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:26:49.975+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:26:49.973+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:26:49.976+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:26:50.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.506 seconds
+[2024-08-22T19:27:20.428+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:27:20.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:27:20.439+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:27:20.438+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:27:21.015+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:27:21.013+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.brewery.transformations import (
+ModuleNotFoundError: No module named 'scripts.brewery'
+[2024-08-22T19:27:21.016+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:27:21.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.627 seconds
+[2024-08-22T19:27:36.055+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:27:36.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:27:36.059+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:27:36.058+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:27:36.666+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:27:36.663+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from airflow.scripts.transformations import (
+ModuleNotFoundError: No module named 'airflow.scripts'
+[2024-08-22T19:27:36.668+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:27:36.688+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.642 seconds
+[2024-08-22T19:28:07.145+0000] {processor.py:186} INFO - Started process (PID=219) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:28:07.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:28:07.149+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:28:07.149+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:28:07.641+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:28:07.639+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from airflow.scripts.transformations import (
+ModuleNotFoundError: No module named 'airflow.scripts'
+[2024-08-22T19:28:07.642+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:28:07.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.522 seconds
+[2024-08-22T19:28:37.936+0000] {processor.py:186} INFO - Started process (PID=233) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:28:37.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:28:37.940+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:28:37.939+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:28:38.430+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:28:38.428+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from airflow.scripts.transformations import (
+ModuleNotFoundError: No module named 'airflow.scripts'
+[2024-08-22T19:28:38.431+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:28:38.447+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.520 seconds
+[2024-08-22T19:29:08.882+0000] {processor.py:186} INFO - Started process (PID=241) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:29:08.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:29:08.887+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:29:08.887+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:29:09.464+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:29:09.462+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from airflow.scripts.transformations import (
+ModuleNotFoundError: No module named 'airflow.scripts'
+[2024-08-22T19:29:09.465+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:29:09.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.609 seconds
+[2024-08-22T19:30:11.594+0000] {processor.py:186} INFO - Started process (PID=48) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:30:11.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:30:11.603+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:30:11.602+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:30:12.910+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:30:12.899+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from airflow.scripts.transformations import (
+ModuleNotFoundError: No module named 'airflow.scripts'
+[2024-08-22T19:30:12.913+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:30:13.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.447 seconds
+[2024-08-22T19:30:44.155+0000] {processor.py:186} INFO - Started process (PID=62) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:30:44.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:30:44.184+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:30:44.181+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:30:46.332+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:30:46.316+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from airflow.scripts.transformations import (
+ModuleNotFoundError: No module named 'airflow.scripts'
+[2024-08-22T19:30:46.335+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:30:46.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 2.341 seconds
+[2024-08-22T19:31:16.974+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:31:16.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:31:16.999+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:31:16.998+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:31:17.993+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:31:17.991+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from airflow.scripts.transformations import (
+ModuleNotFoundError: No module named 'airflow.scripts'
+[2024-08-22T19:31:17.994+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:31:18.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.147 seconds
+[2024-08-22T19:31:31.071+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:31:31.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:31:31.077+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:31:31.077+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:31:31.560+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:31:31.558+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:31:31.561+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:31:31.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.520 seconds
+[2024-08-22T19:32:02.039+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:32:02.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:32:02.057+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:32:02.056+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:32:05.732+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:32:05.724+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:32:05.735+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:32:05.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 3.827 seconds
+[2024-08-22T19:32:36.127+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:32:36.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:32:36.133+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:32:36.133+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:32:38.340+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:32:38.338+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:32:38.341+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:32:38.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 2.244 seconds
+[2024-08-22T19:33:08.614+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:33:08.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:33:08.623+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:33:08.622+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:33:09.405+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:33:09.403+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:33:09.407+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:33:09.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.830 seconds
+[2024-08-22T19:33:40.102+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:33:40.103+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:33:40.107+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:33:40.107+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:33:40.648+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:33:40.646+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:33:40.650+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:33:40.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.576 seconds
+[2024-08-22T19:34:11.276+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:34:11.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:34:11.301+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:34:11.300+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:34:12.475+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:34:12.442+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:34:12.477+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:34:12.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.376 seconds
+[2024-08-22T19:34:42.815+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:34:42.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:34:42.967+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:34:42.966+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:34:43.279+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:34:43.277+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:34:43.280+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:34:43.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.493 seconds
+[2024-08-22T19:35:13.842+0000] {processor.py:186} INFO - Started process (PID=128) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:35:13.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:35:13.846+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:35:13.846+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:35:14.183+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:35:14.181+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:35:14.184+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:35:14.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.375 seconds
+[2024-08-22T19:35:44.602+0000] {processor.py:186} INFO - Started process (PID=142) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:35:44.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:35:44.656+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:35:44.656+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:35:45.781+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:35:45.751+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:35:45.783+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:35:46.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.555 seconds
+[2024-08-22T19:36:16.570+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:36:16.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:36:16.578+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:36:16.577+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:36:16.998+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:36:16.993+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:36:16.999+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:36:17.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.471 seconds
+[2024-08-22T19:36:47.373+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:36:47.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:36:47.378+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:36:47.378+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:36:47.980+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:36:47.977+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:36:47.982+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:36:48.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.648 seconds
+[2024-08-22T19:37:18.333+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:37:18.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:37:18.338+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:37:18.338+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:37:18.672+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:37:18.669+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:37:18.673+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:37:18.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.373 seconds
+[2024-08-22T19:37:49.118+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:37:49.126+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:37:49.136+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:37:49.134+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:37:50.211+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:37:50.206+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:37:50.213+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:37:50.317+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.230 seconds
+[2024-08-22T19:38:20.801+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:38:20.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:38:20.813+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:38:20.812+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:38:21.972+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:38:21.966+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:38:21.975+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:38:22.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.246 seconds
+[2024-08-22T19:38:52.294+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:38:52.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:38:52.301+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:38:52.300+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:38:53.024+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:38:53.016+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:38:53.028+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:38:53.083+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.800 seconds
+[2024-08-22T19:39:23.483+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:39:23.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:39:23.489+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:39:23.489+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:39:23.841+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:39:23.836+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:39:23.842+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:39:23.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.391 seconds
+[2024-08-22T19:39:54.049+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:39:54.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:39:54.058+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:39:54.057+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:39:54.726+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:39:54.721+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:39:54.728+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:39:54.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.733 seconds
+[2024-08-22T19:40:25.314+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:40:25.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:40:25.320+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:40:25.320+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:40:25.766+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:40:25.763+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:40:25.767+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:40:25.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.490 seconds
+[2024-08-22T19:40:56.263+0000] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:40:56.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:40:56.272+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:40:56.271+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:40:56.976+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:40:56.971+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:40:56.978+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:40:57.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.780 seconds
+[2024-08-22T19:41:27.860+0000] {processor.py:186} INFO - Started process (PID=229) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:41:27.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:41:27.869+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:41:27.868+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:41:28.514+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:41:28.502+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:41:28.518+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:41:28.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.722 seconds
+[2024-08-22T19:41:58.965+0000] {processor.py:186} INFO - Started process (PID=237) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:41:58.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:41:58.973+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:41:58.971+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:41:59.580+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:41:59.576+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:41:59.582+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:41:59.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.672 seconds
+[2024-08-22T19:45:03.093+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:45:03.125+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:45:03.168+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:45:03.165+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:45:23.765+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:45:23.746+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:45:23.770+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:45:23.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 20.984 seconds
+[2024-08-22T19:45:55.080+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:45:55.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:45:55.117+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:45:55.115+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:45:58.417+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:45:58.409+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:45:58.419+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:45:58.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 3.471 seconds
+[2024-08-22T19:46:28.711+0000] {processor.py:186} INFO - Started process (PID=94) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:46:28.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:46:28.723+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:46:28.721+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:46:30.249+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:46:30.236+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:46:30.251+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:46:30.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.688 seconds
+[2024-08-22T19:47:00.673+0000] {processor.py:186} INFO - Started process (PID=102) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:47:00.675+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:47:00.680+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:47:00.679+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:47:01.569+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:47:01.566+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:47:01.570+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:47:01.595+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.933 seconds
+[2024-08-22T19:47:32.390+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:47:32.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:47:32.399+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:47:32.398+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:47:33.548+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:47:33.545+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:47:33.549+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:47:33.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.207 seconds
+[2024-08-22T19:48:04.408+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:48:04.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:48:04.421+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:48:04.419+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:48:07.039+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:48:07.035+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:48:07.041+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:48:07.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 2.771 seconds
+[2024-08-22T19:48:37.545+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:48:37.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:48:37.551+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:48:37.550+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:48:38.123+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:48:38.121+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:48:38.124+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:48:38.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.613 seconds
+[2024-08-22T19:49:08.529+0000] {processor.py:186} INFO - Started process (PID=140) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:49:08.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:49:08.538+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:49:08.538+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:49:09.197+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:49:09.194+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:49:09.198+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:49:09.220+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.707 seconds
+[2024-08-22T19:49:39.446+0000] {processor.py:186} INFO - Started process (PID=147) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:49:39.448+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:49:39.452+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:49:39.451+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:49:40.063+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:49:40.060+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:49:40.065+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:49:40.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.653 seconds
+[2024-08-22T19:50:10.498+0000] {processor.py:186} INFO - Started process (PID=155) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:50:10.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:50:10.504+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:50:10.504+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:50:11.099+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:50:11.096+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:50:11.100+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:50:11.124+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.636 seconds
+[2024-08-22T19:53:47.452+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:53:47.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:53:47.487+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:53:47.485+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:53:56.033+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:53:56.026+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:53:56.037+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:53:56.219+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 8.836 seconds
+[2024-08-22T19:54:26.679+0000] {processor.py:186} INFO - Started process (PID=75) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:54:26.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:54:26.701+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:54:26.699+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:54:34.982+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:54:34.972+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:54:34.986+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:54:35.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 8.428 seconds
+[2024-08-22T19:55:05.785+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:55:05.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:55:05.821+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:55:05.819+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:55:10.048+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:55:10.042+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:55:10.051+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:55:10.150+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 4.448 seconds
+[2024-08-22T19:55:41.127+0000] {processor.py:186} INFO - Started process (PID=91) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:55:41.131+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:55:41.141+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:55:41.140+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:55:44.801+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:55:44.759+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:55:44.813+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:55:44.932+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 3.831 seconds
+[2024-08-22T19:58:32.154+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:58:32.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:58:32.195+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:58:32.189+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:58:42.235+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:58:42.223+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:58:42.240+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:58:42.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 10.283 seconds
+[2024-08-22T19:59:12.689+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:59:12.700+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:59:12.723+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:59:12.721+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:59:18.260+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:59:18.253+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:59:18.264+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:59:18.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 5.838 seconds
+[2024-08-22T19:59:49.046+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:59:49.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T19:59:49.052+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:59:49.051+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:59:49.612+0000] {logging_mixin.py:190} INFO - [2024-08-22T19:59:49.610+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T19:59:49.613+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T19:59:49.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.598 seconds
+[2024-08-22T20:00:20.045+0000] {processor.py:186} INFO - Started process (PID=94) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:00:20.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:00:20.076+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:00:20.075+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:00:21.903+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:00:21.900+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T20:00:21.906+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:00:21.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.954 seconds
+[2024-08-22T20:00:52.761+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:00:52.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:00:52.775+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:00:52.775+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:00:54.868+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:00:54.864+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T20:00:54.869+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:00:55.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 2.336 seconds
+[2024-08-22T20:01:25.998+0000] {processor.py:186} INFO - Started process (PID=116) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:01:26.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:01:26.007+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:01:26.007+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:01:27.569+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:01:27.566+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T20:01:27.571+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:01:27.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.612 seconds
+[2024-08-22T20:01:57.982+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:01:57.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:01:57.988+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:01:57.987+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:01:58.546+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:01:58.543+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T20:01:58.547+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:01:58.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.596 seconds
+[2024-08-22T20:02:29.022+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:02:29.024+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:02:29.030+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:02:29.029+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:02:30.032+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:02:30.028+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T20:02:30.033+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:02:30.065+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.058 seconds
+[2024-08-22T20:03:00.405+0000] {processor.py:186} INFO - Started process (PID=140) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:03:00.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:03:00.411+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:03:00.410+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:03:00.921+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:03:00.919+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T20:03:00.922+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:03:00.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.546 seconds
+[2024-08-22T20:03:31.397+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:03:31.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:03:31.413+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:03:31.411+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:03:32.843+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:03:32.837+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T20:03:32.847+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:03:32.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.566 seconds
+[2024-08-22T20:04:03.500+0000] {processor.py:186} INFO - Started process (PID=156) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:04:03.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:04:03.510+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:04:03.509+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:04:04.356+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:04:04.350+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T20:04:04.358+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:04:04.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.928 seconds
+[2024-08-22T20:04:34.777+0000] {processor.py:186} INFO - Started process (PID=164) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:04:34.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:04:34.783+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:04:34.783+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:04:35.108+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:04:35.105+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T20:04:35.109+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:04:35.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.365 seconds
+[2024-08-22T20:05:05.468+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:05:05.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:05:05.475+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:05:05.474+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:05:05.802+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:05:05.799+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T20:05:05.803+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:05:05.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.366 seconds
+[2024-08-22T20:05:35.879+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:05:35.882+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:05:35.896+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:05:35.895+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:05:36.851+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:05:36.837+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T20:05:36.853+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:05:36.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.133 seconds
+[2024-08-22T20:06:07.393+0000] {processor.py:186} INFO - Started process (PID=188) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:06:07.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:06:07.404+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:06:07.403+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:06:08.067+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:06:08.063+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T20:06:08.069+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:06:08.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.754 seconds
+[2024-08-22T20:06:38.700+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:06:38.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:06:38.708+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:06:38.708+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:06:39.890+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:06:39.878+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 6, in <module>
+    from scripts.transformations import (
+ModuleNotFoundError: No module named 'scripts.transformations'
+[2024-08-22T20:06:39.898+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:06:40.124+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.439 seconds
+[2024-08-22T20:06:53.394+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:06:53.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:06:53.403+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:06:53.403+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:06:54.589+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:06:54.576+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 115, in <module>
+    t1 = PythonOperator(task_id="bronze", python_callable=extract_data, dag=dag)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 1030, in __init__
+    self.retry_delay = coerce_timedelta(retry_delay, key="retry_delay")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 148, in coerce_timedelta
+    return timedelta(seconds=value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta seconds component: list
+[2024-08-22T20:06:54.591+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:06:54.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.253 seconds
+[2024-08-22T20:07:24.905+0000] {processor.py:186} INFO - Started process (PID=212) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:07:24.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:07:24.930+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:07:24.927+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:07:26.781+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:07:26.738+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 115, in <module>
+    t1 = PythonOperator(task_id="bronze", python_callable=extract_data, dag=dag)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 1030, in __init__
+    self.retry_delay = coerce_timedelta(retry_delay, key="retry_delay")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 148, in coerce_timedelta
+    return timedelta(seconds=value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta seconds component: list
+[2024-08-22T20:07:26.795+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:07:26.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 2.097 seconds
+[2024-08-22T20:07:57.476+0000] {processor.py:186} INFO - Started process (PID=220) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:07:57.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:07:57.484+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:07:57.483+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:07:58.247+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:07:58.242+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 115, in <module>
+    t1 = PythonOperator(task_id="bronze", python_callable=extract_data, dag=dag)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 1030, in __init__
+    self.retry_delay = coerce_timedelta(retry_delay, key="retry_delay")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 148, in coerce_timedelta
+    return timedelta(seconds=value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta seconds component: list
+[2024-08-22T20:07:58.249+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:07:58.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.814 seconds
+[2024-08-22T20:08:28.627+0000] {processor.py:186} INFO - Started process (PID=228) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:08:28.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:08:28.662+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:08:28.660+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:08:30.305+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:08:30.296+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 115, in <module>
+    t1 = PythonOperator(task_id="bronze", python_callable=extract_data, dag=dag)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 1030, in __init__
+    self.retry_delay = coerce_timedelta(retry_delay, key="retry_delay")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 148, in coerce_timedelta
+    return timedelta(seconds=value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta seconds component: list
+[2024-08-22T20:08:30.309+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:08:30.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.922 seconds
+[2024-08-22T20:08:49.947+0000] {processor.py:186} INFO - Started process (PID=230) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:08:49.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:08:50.092+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:08:50.082+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:08:50.193+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:08:50.184+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/brewery_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/brewery_dag.py", line 98
+    }
+    ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 96
+[2024-08-22T20:08:50.197+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:08:50.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 0.403 seconds
+[2024-08-22T20:08:54.427+0000] {processor.py:186} INFO - Started process (PID=237) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:08:54.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:08:54.436+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:08:54.435+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:08:55.512+0000] {processor.py:925} INFO - DAG(s) 'DAG_brewery_ingestion' retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:08:56.437+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:08:56.436+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T20:08:56.511+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:08:56.510+0000] {dag.py:4138} INFO - Setting next_dagrun for DAG_brewery_ingestion to 2024-08-22 03:58:00+00:00, run_after=2024-08-22 03:59:00+00:00
+[2024-08-22T20:08:56.636+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 2.224 seconds
+[2024-08-22T20:09:27.753+0000] {processor.py:186} INFO - Started process (PID=245) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:09:27.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:09:27.802+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:09:27.801+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:09:30.066+0000] {processor.py:925} INFO - DAG(s) 'DAG_brewery_ingestion' retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:09:30.272+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:09:30.270+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T20:09:30.462+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:09:30.461+0000] {dag.py:4138} INFO - Setting next_dagrun for DAG_brewery_ingestion to 2024-08-22 03:59:00+00:00, run_after=2024-08-23 03:00:00+00:00
+[2024-08-22T20:09:30.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 2.892 seconds
+[2024-08-22T20:10:00.649+0000] {processor.py:186} INFO - Started process (PID=253) to work on /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:10:00.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/brewery_dag.py for tasks to queue
+[2024-08-22T20:10:00.661+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:10:00.660+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:10:01.804+0000] {processor.py:925} INFO - DAG(s) 'DAG_brewery_ingestion' retrieved from /opt/airflow/dags/brewery_dag.py
+[2024-08-22T20:10:01.957+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:10:01.956+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T20:10:02.014+0000] {logging_mixin.py:190} INFO - [2024-08-22T20:10:02.013+0000] {dag.py:4138} INFO - Setting next_dagrun for DAG_brewery_ingestion to 2024-08-22 03:59:00+00:00, run_after=2024-08-23 03:00:00+00:00
+[2024-08-22T20:10:02.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/brewery_dag.py took 1.424 seconds

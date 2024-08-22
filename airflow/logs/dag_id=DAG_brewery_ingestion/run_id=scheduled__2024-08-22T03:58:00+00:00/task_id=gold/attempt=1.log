@@ -1,0 +1,58 @@
+[2024-08-22T20:09:39.660+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-08-22T20:09:39.730+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_brewery_ingestion.gold scheduled__2024-08-22T03:58:00+00:00 [queued]>
+[2024-08-22T20:09:39.755+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_brewery_ingestion.gold scheduled__2024-08-22T03:58:00+00:00 [queued]>
+[2024-08-22T20:09:39.757+0000] {taskinstance.py:2856} INFO - Starting attempt 1 of 4
+[2024-08-22T20:09:39.798+0000] {taskinstance.py:2879} INFO - Executing <Task(PythonOperator): gold> on 2024-08-22 03:58:00+00:00
+[2024-08-22T20:09:39.815+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=249) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-08-22T20:09:39.821+0000] {standard_task_runner.py:72} INFO - Started process 251 to run task
+[2024-08-22T20:09:39.822+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_brewery_ingestion', 'gold', 'scheduled__2024-08-22T03:58:00+00:00', '--job-id', '70', '--raw', '--subdir', 'DAGS_FOLDER/brewery_dag.py', '--cfg-path', '/tmp/tmptl1k1hyi']
+[2024-08-22T20:09:39.831+0000] {standard_task_runner.py:105} INFO - Job 70: Subtask gold
+[2024-08-22T20:09:40.000+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_brewery_ingestion.gold scheduled__2024-08-22T03:58:00+00:00 [running]> on host 41262b98bb29
+[2024-08-22T20:09:40.909+0000] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='DAG_brewery_ingestion' AIRFLOW_CTX_TASK_ID='gold' AIRFLOW_CTX_EXECUTION_DATE='2024-08-22T03:58:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-22T03:58:00+00:00'
+[2024-08-22T20:09:40.912+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-08-22T20:09:41.517+0000] {logging_mixin.py:190} INFO - |    | brewery_type   | state          |   count |
+|---:|:---------------|:---------------|--------:|
+| 14 | micro          | Arizona        |       3 |
+| 15 | micro          | California     |       2 |
+| 10 | large          | California     |       1 |
+|  7 | closed         | California     |       1 |
+|  0 | brewpub        | Colorado       |       1 |
+| 16 | micro          | Colorado       |       1 |
+| 11 | large          | Colorado       |       1 |
+| 35 | proprietor     | Colorado       |       1 |
+| 17 | micro          | Delaware       |       1 |
+| 12 | large          | Idaho          |       1 |
+| 18 | micro          | Illinois       |       1 |
+| 19 | micro          | Indiana        |       3 |
+| 20 | micro          | Iowa           |       1 |
+| 21 | micro          | Laois          |       1 |
+|  9 | contract       | Maryland       |       1 |
+| 22 | micro          | Massachusetts  |       1 |
+| 23 | micro          | Michigan       |       1 |
+| 24 | micro          | Minnesota      |       3 |
+| 25 | micro          | Mississippi    |       1 |
+| 26 | micro          | Nevada         |       1 |
+|  1 | brewpub        | New York       |       2 |
+|  2 | brewpub        | North Carolina |       1 |
+| 27 | micro          | North Carolina |       1 |
+| 28 | micro          | Ohio           |       1 |
+|  3 | brewpub        | Ohio           |       1 |
+| 29 | micro          | Oklahoma       |       1 |
+|  4 | brewpub        | Oregon         |       2 |
+| 13 | large          | Oregon         |       4 |
+| 30 | micro          | Pennsylvania   |       1 |
+|  5 | brewpub        | South Carolina |       1 |
+| 31 | micro          | Texas          |       2 |
+| 32 | micro          | Vermont        |       1 |
+| 33 | micro          | Virginia       |       1 |
+|  6 | brewpub        | Washington     |       1 |
+|  8 | closed         | Washington     |       1 |
+| 34 | micro          | Wisconsin      |       2 |
+[2024-08-22T20:09:41.601+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-08-22T20:09:41.667+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-08-22T20:09:41.669+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=DAG_brewery_ingestion, task_id=gold, run_id=scheduled__2024-08-22T03:58:00+00:00, execution_date=20240822T035800, start_date=20240822T200939, end_date=20240822T200941
+[2024-08-22T20:09:41.783+0000] {local_task_job_runner.py:261} INFO - Task exited with return code 0
+[2024-08-22T20:09:41.831+0000] {taskinstance.py:3891} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-22T20:09:41.835+0000] {local_task_job_runner.py:240} INFO - ::endgroup::
